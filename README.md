@@ -43,3 +43,23 @@ git clone https://github.com/imBharathkumarp/ResumeRanker.git
 cd ResumeRanker/backend
 pip install -r requirements.txt
 python app.py
+```
+## 🤝 How to Contribute
+
+
+📌 For more details, please see our [CONTRIBUTING.md](CONTRIBUTING.md).
+
+
+We welcome contributions! Here's how you can help:
+
+1. **Fork** this repository.  
+2. **Clone** your forked repository to your local machine.  
+3. **Create a new branch**, make your changes or add features.  
+4. **Submit a pull request** with a clear description of your changes.
+
+---
+
+## 📜 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
