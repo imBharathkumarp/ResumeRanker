@@ -24,6 +24,10 @@ python app.py
 ---
 ## 🤝 How to Contribute
 
+
+📌 For more details, please see our [CONTRIBUTING.md](CONTRIBUTING.md).
+
+
 We welcome contributions! Here's how you can help:
 
 1. **Fork** this repository.  
