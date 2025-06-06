@@ -6,8 +6,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const error = document.getElementById('error');
     const themeButton = document.getElementById('themeButton');
     const body = document.querySelector('body');
-    const card = document.querySelector('#contCard');
+    const cards = document.querySelectorAll('.card div');
     const uploadCont = document.querySelector(".upload-container");
+    const muted_text = document.querySelector(".text-muted")
     
 
     var darkMode = false;
@@ -19,10 +20,18 @@ document.addEventListener('DOMContentLoaded', () => {
             themeButton.innerText="Light";
             body.classList.remove("light-body");
             body.classList.add("dark-body");
-            card.classList.remove('card');
-            card.classList.add('dark-card');
+            // card.classList.remove('card');
+            // card.classList.add('dark-card');
             uploadCont.classList.remove('card');
             uploadCont.classList.add('dark-card');
+            uploadCont.classList.remove('upload-container');
+            uploadCont.classList.add('dark-upload');
+            cards.forEach(element => {
+                element.classList.remove("card");
+                element.classList.add("dark-card");
+            });
+            muted_text.classList.remove("text-muted");
+            muted_text.classList.add("dark-muted");
         }
         else{
             themeButton.classList.remove("lightButton");
@@ -30,8 +39,18 @@ document.addEventListener('DOMContentLoaded', () => {
             themeButton.innerText="Dark";
             body.classList.remove("dark-body");
             body.classList.add("light-body");
-            card.classList.remove('dark-card');
-            card.classList.add('card');
+            // card.classList.remove('dark-card');
+            // card.classList.add('card');
+            uploadCont.classList.remove('dark-card');
+            uploadCont.classList.add('card');
+            uploadCont.classList.remove('dark-upload');
+            uploadCont.classList.add('upload-container');
+            cards.forEach(element => {
+                element.classList.remove("dark-card");
+                element.classList.add("card");
+            });
+            muted_text.classList.remove("dark-muted");
+            muted_text.classList.add("text-muted");
         }
     })
 

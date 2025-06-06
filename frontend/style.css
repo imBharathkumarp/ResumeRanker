@@ -8,6 +8,10 @@
   color: white;
 }
 
+.dark-muted{
+    color: rgb(221, 221, 221);
+}
+
 .card {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border: none;
@@ -29,6 +33,7 @@ i {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+  color: white;
 }
 
 .darkButton {
@@ -38,6 +43,14 @@ i {
   height: 50px;
   width: 50px;
   border-radius: 50%;
+}
+
+.dark-upload {
+  padding: 2rem;
+  border: 2px dashed #dee2e6;
+  border-radius: 10px;
+  background-color: #5b5f63;
+  transition: all 0.3s ease;
 }
 
 .lightButton {
