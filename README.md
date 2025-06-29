@@ -44,6 +44,8 @@ cd ResumeRanker/backend
 pip install -r requirements.txt
 python app.py
 ```
+---
+
 ## 🤝 How to Contribute
 
 
